@@ -4,7 +4,6 @@ import FaqSimple from '@/components/sections/faq/FaqSimple';
 import FeaturesMediaCards from '@/components/sections/features/FeaturesMediaCards';
 import HeroBrand from '@/components/sections/hero/HeroBrand';
 import MetricsFeatureCards from '@/components/sections/metrics/MetricsFeatureCards';
-import PricingSplitCards from '@/components/sections/pricing/PricingSplitCards';
 import SocialProofMarquee from '@/components/sections/social-proof/SocialProofMarquee';
 import TestimonialOverlayCards from '@/components/sections/testimonial/TestimonialOverlayCards';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
@@ -72,54 +71,6 @@ export default function HomePage() {
     </SectionErrorBoundary>
   </div>
 
-  <div id="pricing" data-section="pricing">
-    <SectionErrorBoundary name="pricing">
-          <PricingSplitCards
-      tag="Investment"
-      title="Transparent Pricing"
-      description="Start your journey with professional development at affordable rates."
-      plans={[
-        {
-          tag: "Starter",
-          price: "$1,000",
-          period: "starting",
-          description: "Perfect for small businesses or individuals just starting their digital journey.",
-          primaryButton: {
-            text: "Start Project",
-            href: "#contact",
-          },
-          featuresTitle: "Included Features",
-          features: [
-            "Bespoke Web Design",
-            "Basic SEO Optimization",
-            "Mobile Responsive",
-            "Contact Integration",
-            "SSL Security",
-          ],
-        },
-        {
-          tag: "Scale",
-          price: "$2,500",
-          period: "starting",
-          description: "Designed for growing enterprises that need advanced features and conversion optimization.",
-          primaryButton: {
-            text: "Get Started",
-            href: "#contact",
-          },
-          featuresTitle: "Everything in Starter, plus:",
-          features: [
-            "Advanced Analytics",
-            "Newsletter Integration",
-            "Speed Optimization",
-            "Priority Support",
-            "Basic CMS Training",
-          ],
-        },
-      ]}
-      textAnimation="slide-up"
-    />
-    </SectionErrorBoundary>
-  </div>
 
   <div id="metrics" data-section="metrics">
     <SectionErrorBoundary name="metrics">
