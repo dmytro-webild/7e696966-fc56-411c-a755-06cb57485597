@@ -16,7 +16,7 @@ export default function FaqSection(): React.JSX.Element {
           items={[
             {
               question: "What is the timeline for a website?",
-              answer: "Most projects are completed within 4-6 weeks depending on complexity.",
+              answer: "Most projects are completed within 1-2 weeks depending on complexity.",
             },
             {
               question: "Do you offer maintenance?",
