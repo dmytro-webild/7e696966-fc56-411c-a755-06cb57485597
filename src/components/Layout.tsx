@@ -66,7 +66,7 @@ export default function Layout() {
             },
             {
               label: "Portfolio",
-              href: "#",
+              href: "#features",
             },
           ],
         },
@@ -75,11 +75,11 @@ export default function Layout() {
           items: [
             {
               label: "Blog",
-              href: "#",
+              href: "#social-proof",
             },
             {
               label: "Support",
-              href: "#",
+              href: "#contact",
             },
           ],
         },
