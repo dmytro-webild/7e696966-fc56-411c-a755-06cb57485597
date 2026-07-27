@@ -19,8 +19,8 @@ export default function FaqSection(): React.JSX.Element {
               answer: "Most projects are completed within 1-2 weeks depending on complexity.",
             },
             {
-              question: "Do you offer maintenance?",
-              answer: "Yes, we provide ongoing maintenance and performance monitoring services.",
+              question: "Can you provide hosting recommendations for my new site?",
+              answer: "Yes, we can recommend reliable hosting providers and help you set up your new site on their platform.",
             },
             {
               question: "How do payments work?",
